@@ -1,0 +1,8 @@
+# Ignore the files since its not part of the requirement
+node_modules/
+events.jsonl
+package-lock.json
+
+
+
+

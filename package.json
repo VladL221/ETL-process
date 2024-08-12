@@ -1,0 +1,16 @@
+{
+  "name": "etl-system",
+  "version": "1.0.0",
+  "description": "Simple ETL system with client, server, and data processor",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "client": "node client.js",
+    "process": "node data_processor.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1",
+    "axios": "^0.24.0"
+  }
+}
